@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> registration form</title>
+    <link rel="stylesheet" href="style4.css">
+</head>
+<body>
+    <header>
+        <b> Music School Registration</b><br>
+        Registration to our music school from below
+    </header>
+      <form>
+          <label for="firstName" > Name :</label>
+          <input type="text" id="firstName" name="firstName" placeholder="FirstName" required>
+          <input type="text" id="lastName" name="lastName" placeholder="lastName" required>
+          <br>
+          </label> 
+          <label for=" birthdate">Birthdate:</label>
+          <input type="date" id="birthdate" name="birthdate" required>
+          <br>
+          <label for=" instrument"> Choise of instruments:</label>
+          <select id="Instrument name " name="instruments" required>
+              <option> piano</option>
+              <option>Guitar</option>
+              <option>violin</option>
+              <option> Drums</option>
+          </select>
+          <br>
+          <label> pick day of classes:</label> 
+        <br>
+          <label for="monday">monday</label>
+             <input type="checkbox" id="tuesday" name="classdays" value="tuesday"> <br>
+             <label for="tuesday">tuesday</label>
+             <input type="checkbox" id="wednesday" name="classdays" value="wednesday"><br>
+             <label for="wednesday">wednesday</label> 
+             <input type="checkbox" id="thursday" name="classdays" value="thursday"><br>
+             <label for="thursday">thursday</label>
+             <input type="checkbox" id="friday" name="classdays" value="friday"> <br>
+             <label for="friday">friday</label>
+             <input type="checkbox" id="saturday" name="classdays" value="saturday"> <br>
+             <label for="saturday">saturday</label>
+             <input type="checkbox" id="sunday" name="classdays" value="sunday"><br>
+             <label for="sunday">sunday</label>
+             <br>
+             <label for="start date">start date & time </label>
+             <input type="datetime-local" id="start time" name="startDate" required>
+             <label for="comments">comments</label> <br>
+             <textarea name="comments" id="comments" cols="50" rows="5"></textarea>
+
+      </form>
+</body>
+</html>

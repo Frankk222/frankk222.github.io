@@ -1,0 +1,13 @@
+body{
+    background-color: bisque;
+    margin: 00 100px;
+}
+li, a, ul{
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 10px;
+}
+button{
+     cursor: pointer;
+}

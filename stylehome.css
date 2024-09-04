@@ -1,0 +1,44 @@
+body{
+    font-family: Arial,sans-serif;
+    margin: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px;
+    align-items: center;
+    color: #ffffff;
+
+}
+header .logo{
+    font-size: 24px;
+    font-weight: bold;
+    color: #E88E32;
+    
+}
+header nav a {
+    margin-left: 20px;
+    color: #333;
+    text-decoration: none;
+    font-weight: 500;
+}
+.hero{
+    background-color: #ffffff;
+    text-align: center;
+    padding: 50px 20px;
+}
+.hero p{
+    font-size: 20px;
+    color:#333;
+    margin:20px 0;
+}
+.hero h1{
+    font-size: 30px;
+    color: #E88E32;
+}
+.hero img{
+    width: 300px;
+    border-radius: 50%;
+}

@@ -1,0 +1,62 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.profile-picture img {
+    width: 200px;
+    border-radius: 100%;
+}
+
+.about-me {
+    margin-left: 100px;
+    margin-bottom: 10vh;
+}
+
+.about-me h1 {
+    font-size: 36px;
+    color: #333;
+    text-decoration: underline;
+    text-decoration-color: #f9a825;
+}
+
+.about-me p {
+    font-size: 16px;
+    color: #666;
+}
+
+.details p {
+    margin: 5px 0;
+    font-size: 14px;
+    color: #333;
+    margin-top: 20px;
+}
+
+.buttons {
+    margin-top: 20px;
+}
+
+.hire-me, .download-cv {
+    display: inline-block;
+    padding: 10px 20px;
+    margin-right: 10px;
+    text-decoration: none;
+    color: white;
+    background-color: #f9a825;
+    border-radius: 20px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.download-cv {
+    background-color: #757575;
+}

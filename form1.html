@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>New Student Registration Form</title>
+    <link rel="stylesheet" href="style5.css ">
+       
+</head>
+<body>
+    <div class="container">
+        <h1>ATTLEBORO HIGH SCHOOL</h1>
+        <h2>New Student Registration Form</h2>
+        <p><strong>PLEASE PRINT LEGIBLY</strong></p>
+
+        <div class="form-section">
+            <h2>Student Information</h2>
+            <div>
+                <label for="student-last-name">Student's Last Name:</label>
+                <input type="text" id="student-last-name">
+            </div>
+            <div>
+                <label for="student-first-name">First:</label>
+                <input type="text" id="student-first-name">
+            </div>
+            <div>
+                <label for="student-middle-name">Middle:</label>
+                <input type="text" id="student-middle-name">
+            </div>
+            <div>
+                <label for="home-address">*Home Address:</label>
+                <input type="text" id="home-address">
+            </div>
+            <div>
+                <label for="city">City:</label>
+                <input type="text" id="city">
+            </div>
+            <div>
+                <label for="state">State:</label>
+                <input type="text" id="state">
+            </div>
+            <div>
+                <label for="zip-code">Zip Code:</label>
+                <input type="text" id="zip-code">
+            </div>
+            <div>
+                <label for="student-email">Student email address:</label>
+                <input type="email" id="student-email">
+            </div>
+            <div>
+                <label for="home-phone">Home Phone:</label>
+                <input type="tel" id="home-phone">
+            </div>
+            <div>
+                <label for="dob">Date of Birth:</label>
+                <input type="date" id="dob">
+            </div>
+            <div>
+                <label for="gender">Gender:</label>
+                <input type="radio" id="gender-m" name="gender" value="M"> M
+                <input type="radio" id="gender-f" name="gender" value="F"> F
+            </div>
+            <div>
+                <label for="birth-city-state">Place of Birth /City & State:</label>
+                <input type="text" id="birth-city-state">
+            </div>
+            <div>
+                <label for="country">Country (If not USA):</label>
+                <input type="text" id="country">
+            </div>
+        </div>
+
+        <div class="form-section">
+            <h2>Parent/Guardian Information</h2>
+            <div>
+                <label for="mother-last-name">Mother/Guardian Last Name:</label>
+                <input type="text" id="mother-last-name">
+            </div>
+            <div>
+                <label for="mother-first-name">First Name:</label>
+                <input type="text" id="mother-first-name">
+            </div>
+            <div>
+                <label for="mother-address">Address (if different from student):</label>
+                <input type="text" id="mother-address">
+            </div>
+            <div>
+                <label for="mother-city-state-zip">Please indicate City, State and Zip Code:</label>
+<input type="text" id="mother-city-state-zip">
+
+            </div>
+            <div>
+                <label for="mother-home-phone">Home Phone:</label>
+                <input type="tel" id="mother-home-phone">
+            </div>
+            <div>
+                <label for="mother-cell-phone">Cell Phone:</label>
+                <input type="tel" id="mother-cell-phone">
+            </div>
+            <div>
+                <label for="mother-email">Mother's email address:</label>
+                <input type="email" id="mother-email">
+            </div>
+            <div>
+                <label for="mother-employment">Place of Employment:</label>
+                <input type="text" id="mother-employment">
+            </div>
+            <div>
+                <label for="mother-work-phone">Work Phone:</label>
+                <input type="tel" id="mother-work-phone">
+            </div>
+            <div>
+                <label for="father-last-name">Father/Guardian Last Name:</label>
+                <input type="text" id="father-last-name">
+            </div>
+            <div>
+                <label for="father-first-name">First Name:</label>
+                <input type="text" id="father-first-name">
+            </div>
+            <div>
+                <label for="father-address">Address (if different from student):</label>
+                <input type="text" id="father-address">
+            </div>
+            <div>
+                <label for="father-city-state-zip">Please indicate City, State and Zip Code:</label>
+                <input type="text" id="father-city-state-zip">
+            </div>
+            <div>
+                <label for="father-home-phone">Home Phone:</label>
+                <input type="tel" id="father-home-phone">
+            </div>
+            <div>
+                <label for="father-cell-phone">Cell Phone:</label>
+                <input type="tel" id="father-cell-phone">
+            </div>
+            <div>
+                <label for="father-email">Father's email address:</label>
+                <input type="email" id="father-email">
+            </div>
+            <div>
+                <label for="father-employment">Place of Employment:</label>
+                <input type="text" id="father-employment">
+            </div>
+            <div>
+                <label for="father-work-phone">Work Phone:</label>
+                <input type="tel" id="father-work-phone">
+            </div>
+        </div>
+
+        <div class="form-section">
+            <h2>Automated Message Preferences</h2>
+            <div>
+                <label for="best-phone">Best Phone Number for automated call:</label>
+                <input type="tel" id="best-phone">
+            </div>
+            <div>
+                <label for="best-email">Best email for automated email:</label>
+                <input type="email" id="best-email">
+            </div>
+        </div>
+
+        <div class="form-section">
+            <h2>Military Family Status</h2>
+            <p>Please check the appropriate box if this student is a child of:</p>
+            <div>
+                <input type="checkbox" id="active-duty" name="military-status" value="active-duty">
+                <label for="active-duty">An active duty member of the Uniformed Services, National Guard or Reserves on active duty orders</label>
+            </div>
+            <div>
+                <input type="checkbox" id="medically-discharged" name="military-status" value="medically-discharged">
+                <label for="medically-discharged">A member or veteran medically discharged or retired within one year</label>
+            </div>
+            <div>
+                <input type="checkbox" id="died-active-duty" name="military-status" value="died-active-duty">
+                <label for="died-active-duty">A member of the Uniformed Services, National Guard or Reserves who died on active duty</label>
+            </div>
+        </div>
+
+        <p>Finaljind/S-21-14</p>
+        <p><strong>Please see reverse side &rarr;</strong></p>
+    </div>
+</body>
+</html>
